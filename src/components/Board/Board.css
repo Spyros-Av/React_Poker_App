@@ -1,0 +1,45 @@
+.boardContainer {
+  height: 100vh;
+  background-image: url(../../images/poker-table.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  align-items: center;
+  justify-items: center;
+}
+
+.boardContainer div {
+  border: 1px solid black;
+}
+
+.box-hand-1 {
+  background-color: blue;
+  order: 1;
+  flex: 0 0 25%;
+  width: 60%;
+}
+
+.box-hand-2 {
+  background-color: red;
+  order: 3;
+  flex: 0 0 25%;
+  width: 60%;
+}
+
+.box-pot {
+  background-color: green;
+  order: 2;
+  flex: 0 0 10%;
+  width: 10%;
+}
+
+.box-action-buttons {
+  background-color: white;
+  order: 3;
+  flex: 0 0 10%;
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  
+}

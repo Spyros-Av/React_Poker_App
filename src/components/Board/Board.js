@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import GameActionButtons from '../gameActionButtons/GameActionButtons'
-import Hand from '../hand/Hand';
+import GameActionButtons from '../GameActionButtons/GameActionButtons'
+import Hand from '../Hand/Hand';
 import './Board.css'
 
 const Board = () => {
@@ -14,18 +14,16 @@ const Board = () => {
                 <h3>Box One</h3>
                 <p>This is the box for hand1</p>
             </div>
-            <div className="box-hand-2">
-                <h3>Box Two</h3>
-                <p>This is the box for hand 2</p>
-            </div>
             <div className="box-pot">
                 <h3>Pot Box</h3>
                 <p>This is the box for Pot</p>
             </div>
+            <div className="box-hand-2">
+                <h3>Box Two</h3>
+                <p>This is the box for hand 2</p>
+            </div>
             <div className="box-action-buttons">
-                <h3>Action Buttons </h3>
-                <p>This is the box for Action Buttons</p>
-                {/* <GameActionButtons /> */}
+                <GameActionButtons />
             </div>
         </div>
 

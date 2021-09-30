@@ -13,8 +13,9 @@ const App = () => {
 
   return (
     <div className="App">
-      {startPage && <LandingPage onClickHandler={clickHandler} />}
-      {!startPage && <Board />}
+      {/* {startPage && <LandingPage onClickHandler={clickHandler} />}
+      {!startPage && <Board />} */}
+      <Board />
     </div>
   );
 }
